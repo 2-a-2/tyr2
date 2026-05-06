@@ -36,10 +36,12 @@
 
 .tyrphrase {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 16px;
+  left: 28px;
+  right: 28px;
+  bottom: 14px;
   color: #AEB6BE;
+  background: rgba(104,168,94,0.55);
+  padding: 4px 6px;
   font-family: Arial, sans-serif;
   font-size: 7.5px;
   letter-spacing: 1px;
@@ -52,13 +54,7 @@
   opacity: 1;
   visibility: visible;
   transition: opacity 0.6s ease, visibility 0.6s ease;
-}
-
-.tyrphrase span {
-  display: inline-block;
-  background: rgba(104,168,94,0.42);
-  padding: 4px 10px;
-  box-shadow: 0 0 10px rgba(104,168,94,0.25);
+  box-shadow: 0 0 8px rgba(104,168,94,0.35);
 }
 
 .tyrname {
