@@ -11,7 +11,7 @@
 .tyrbox {
   width: 260px;
   height: 150px;
-  border: 2px solid #8F989F;
+  border: 2px solid #AEB6BE;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,10 +36,10 @@
 
 .tyrphrase {
   position: absolute;
-  left: 18px;
-  right: 18px;
+  left: 0;
+  right: 0;
   bottom: 16px;
-  color: #8F989F;
+  color: #AEB6BE;
   font-family: Arial, sans-serif;
   font-size: 7.5px;
   letter-spacing: 1px;
@@ -54,12 +54,19 @@
   transition: opacity 0.6s ease, visibility 0.6s ease;
 }
 
+.tyrphrase span {
+  display: inline-block;
+  background: rgba(104,168,94,0.42);
+  padding: 4px 10px;
+  box-shadow: 0 0 10px rgba(104,168,94,0.25);
+}
+
 .tyrname {
   position: absolute;
   left: 0;
   right: 0;
   top: 56px;
-  color: #8F989F;
+  color: #AEB6BE;
   font-family: 'Eagle Lake', serif;
   font-size: 40px;
   letter-spacing: 2px;
@@ -76,12 +83,12 @@
   font-size: 52px;
   margin-right: 12px;
   vertical-align: -7px;
-  color: #8F989F;
+  color: #AEB6BE;
 }
 
 .tyrname span {
   vertical-align: middle;
-  color: #8F989F;
+  color: #AEB6BE;
 }
 
 .tyrbox:hover .tyrveil,
